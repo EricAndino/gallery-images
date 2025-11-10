@@ -1,0 +1,161 @@
+.body{
+    background-color: #1C1E20 ;
+    font-family: "Outfit", sans-serif;
+}
+
+header .nav{
+    min-height: 80px;
+    overflow: hidden;
+    background: #393E46;
+}
+
+header .logo h2,
+header .logo p{
+    font-size: 16px;
+    display: inline-block;
+    color: #FAF0E6;
+}
+
+header .logo .icono{
+    color: #FAF0E6;
+}
+
+header .logo svg{
+    width: 20px;
+    height: 20px;
+}
+
+header .logo p{
+    color: #777;
+}
+
+header .menu .c1 { background: #3da5e2;}
+header .menu .c2 { background: #005385;}
+header .menu .c3 { background: #003855;}
+
+header .menu .c1:hover { background:#1178b4 ;}
+header .menu .c2:hover { background:#00426a ;}
+header .menu .c3:hover { background:#002d44 ;}
+
+
+/*
+MAIN
+PORTAFOLIOS
+*/
+
+.galeriaMain {
+    border-top: 5px solid #3da5e2;
+    background-color: #393E46;
+    border-radius: 10px;
+}
+
+
+.galeriaMain .titulo{
+    color: #3da5e2;
+    font-family: 'Outfit';
+    font-weight: 300px;
+}
+
+.galeriaMain .galeria .contenedor-imagen{
+    max-height: 180px;
+    overflow: hidden;
+}
+
+.galeriaMain .galeria .contenedor-imagen a{
+    background: #3da5e2;
+    display: inline-block;
+}
+
+.galeriaMain .galeria .contenedor-imagen:hover img {
+    opacity: .8;
+}
+
+.galeriaMain .galeria .contenedor-imagen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-main .modal-dialog{
+    max-width: 850px;
+    max-height: 850px;
+}
+
+
+.ellie-info .info .titulo{
+    color: #3da5e2;
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.ellie-info .info .resumen{
+    letter-spacing: .5px;
+    color: #FAF0E6;
+}
+
+.ellie-info .info .label{
+    font-size: 18px;
+    font-weight: 600px;
+    margin-bottom: 10px;
+    color: #FAF0E6;
+}
+
+.ellie-info .foto .nombre{
+    color: #3da5e2;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+
+/* MEDIAQUERIES */
+/* sm */
+@media screen and (max-width: 576px){
+    
+}
+/* md */
+@media screen and (max-width: 768px){
+    
+}
+/* lg */
+@media screen and (max-width: 992px){
+    .logo{
+        height: 76px;
+    }
+
+    header .menu{
+        min-height: 76px;
+    }
+
+    header .menu a{
+        width: 100%;
+    }
+
+    .galeriaMain .galeria .contenedor-imagen:nth-child(1){ order: 1; }
+    .galeriaMain .galeria .contenedor-imagen:nth-child(2){ order: 3; }
+    .galeriaMain .galeria .contenedor-imagen:nth-child(3){ order: 6; }
+    .galeriaMain .galeria .contenedor-imagen:nth-child(4){ order: 2; }
+    .galeriaMain .galeria .contenedor-imagen:nth-child(5){ order: 5; }
+    .galeriaMain .galeria .contenedor-imagen:nth-child(6){ order: 4; }
+    .galeriaMain .galeria .contenedor-imagen:nth-child(7){ order: 7; }
+}
+/* xl */
+@media screen and (max-width: 1200px){
+    
+}
+/* xxl */
+@media screen and (max-width: 1400px){
+    
+}
+
+/* informacion de ellie */
+
+.ellie-info img{
+    max-height: 220px;
+    max-width: 220px;
+}
+
+.ellie-info .progress{
+    background-color: #e5dcdc;
+};
